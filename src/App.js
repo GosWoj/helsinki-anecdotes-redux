@@ -11,9 +11,11 @@ const App = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    anecdoteService.getAll().then((anecdotes) => {
+    const initializeAnecdotes = async () => {
+      const anecdotes = await anecdoteService.getAll();
       dispatch(initAnecdotes(anecdotes));
-    });
+    };
+    initializeAnecdotes();
   }, [dispatch]);
 
   return (
