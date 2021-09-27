@@ -49,6 +49,11 @@
       "content": "testing state",
       "votes": 0,
       "id": "R5lSd2r"
+    },
+    {
+      "content": "redux thunk",
+      "votes": 0,
+      "id": "VOI0jYD"
     }
   ]
 }
