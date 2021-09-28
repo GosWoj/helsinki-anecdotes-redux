@@ -37,23 +37,13 @@
     },
     {
       "content": "new anecdote",
-      "votes": 0,
+      "votes": 6,
       "id": "mjnatYO"
     },
     {
       "content": "anecdote saves in json",
-      "votes": 0,
+      "votes": 1,
       "id": "SmFDfwH"
-    },
-    {
-      "content": "testing state",
-      "votes": 0,
-      "id": "R5lSd2r"
-    },
-    {
-      "content": "redux thunk",
-      "votes": 0,
-      "id": "VOI0jYD"
     }
   ]
 }
